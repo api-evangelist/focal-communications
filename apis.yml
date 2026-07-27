@@ -1,8 +1,24 @@
 aid: focal-communications
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/focal-communications.png
 name: Focal Communications
-description: Focal Communications is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Focal Communications Corporation was a Chicago-based competitive local exchange carrier
+  (CLEC) founded in 1996 that provided switched local phone and data services to large, communications-intensive
+  business customers in Tier I US markets. Backed by Battery Ventures, Madison Dearborn and Frontenac, it
+  went public in 1998, filed Chapter 11 in December 2002, emerged from reorganization in July 2003, and was
+  acquired by Corvis Communications (later Broadwing) in 2004. The company is defunct and operates no public
+  API, developer portal, or documentation surface; this network profile is a historical stub and no live
+  API artifacts exist to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/focal-communications/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +26,28 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: Acquired by Corvis Communications (Broadwing) in 2004; no operating entity or API surface.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Telecommunications
+- CLEC
+- Local Exchange Carrier
+- Networking
+- Voice
+- Data Services
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
